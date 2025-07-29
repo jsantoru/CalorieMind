@@ -2,6 +2,9 @@
 
 A modern, AI-powered calorie tracking web application built with React, Redux, and PostgreSQL. Simply describe your food in natural language and get instant nutritional analysis with detailed macronutrient breakdowns.
 
+<img width="1115" height="1944" alt="image" src="https://github.com/user-attachments/assets/f85a811f-3ae4-40bb-9e9d-49eb53a4b762" />
+
+
 ## Features
 
 - **AI-Powered Food Analysis**: Describe any food (e.g., "grilled chicken with rice") and get detailed nutritional information using OpenAI GPT-4o

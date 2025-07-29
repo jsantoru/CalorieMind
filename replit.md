@@ -38,12 +38,12 @@ Preferred communication style: Simple, everyday language.
 
 ### Backend Services
 - **OpenAI Integration**: Uses GPT-4o for food analysis and nutritional data extraction
-- **Storage Layer**: In-memory storage implementation (MemStorage) with interface for future database integration
+- **Storage Layer**: PostgreSQL database integration using Drizzle ORM with DatabaseStorage implementation
 - **API Routes**: RESTful endpoints for food analysis and CRUD operations
 
 ### Database Schema
-- **Users Table**: User information with daily calorie goals
-- **Food Entries Table**: Detailed nutritional information for logged foods including macronutrient percentages
+- **Users Table**: User information with daily calorie goals (PostgreSQL with UUID primary keys)
+- **Food Entries Table**: Detailed nutritional information for logged foods including macronutrient percentages (PostgreSQL with timestamps)
 
 ## Data Flow
 
